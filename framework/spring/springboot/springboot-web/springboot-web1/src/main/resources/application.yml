@@ -1,0 +1,6 @@
+server:
+      port: 8
+#      servlet-path: *.action
+
+logging:
+  file: D:/log/spring.log

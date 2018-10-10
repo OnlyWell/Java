@@ -1,0 +1,13 @@
+server:
+    port: 8888
+spring:
+    data:
+        elasticsearch:
+                  #elastic的api模式端口是9300
+                  cluster-nodes: 127.0.0.1:9300
+                  #集群名称
+                  #cluster-name: elasticsearch
+                  repositories:
+                              #是否开启本地存储
+                              enable: true
+  

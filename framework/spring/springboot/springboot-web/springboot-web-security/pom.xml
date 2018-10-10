@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.onlywell</groupId>
+    <artifactId>springboot-web</artifactId>
+    <version>${project.version}</version>
+  </parent>
+  <artifactId>springboot-web-security</artifactId>
+  
+  <description>spring的安全框架的学习</description>
+  	
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-starter-security</artifactId>
+  			<version>${springboot-version}</version>
+  		</dependency>
+  	</dependencies>
+</project>
