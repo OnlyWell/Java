@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.onlywell</groupId>
+		<artifactId>spring</artifactId>
+		<version>${project.version}</version>
+	</parent>
+	<artifactId>springcloud</artifactId>
+	<packaging>pom</packaging>
+	<description>springcloud相关</description>
+	<modules>
+		<module>springcloud-config</module>
+	</modules>
+	
+	<properties>
+		<springcloud.verion>Finchley.SR1</springcloud.verion>
+	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${springcloud.verion}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+	
+
+</project>
